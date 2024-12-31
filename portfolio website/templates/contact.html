@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hal Power Conversion - Home</title>
+    <script src="../static/script.js" defer></script>
+    <link rel="stylesheet" href="../static/contact.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Hal Power Conversion</div>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contactus">Contact Us</a></li>
+                <!-- <li><a href="more.html">More</a></li> -->
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+        <!-- <div class="hero-section fade-in">
+            <h1>Powering the Future with <span>Reliable Solutions</span></h1>
+            <p>Delivering excellence in UPS, inverters, and power management systems.</p>
+            <a href="services.html" class="btn">Explore Services</a>
+        </div> -->
+    </header>
+
+    <div class="contact-container">
+        <h1 class="contact-heading">Get in Touch</h1>
+
+        <div class="contact-content">
+            <!-- Contact Form -->
+            <form id="contact-form" class="contact-form" action="/contact_form" method="POST">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+            
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+            
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Your message"></textarea>
+                </div>
+            
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            
+
+            <!-- Location Section (Right Side) -->
+            <div class="location-section">
+                <h2>Our Location</h2>
+                <p>Visit us at:</p>
+                <address>
+                    123 Business St,<br>
+                    Example City, EX 12345<br>
+                    Country
+                </address>
+
+                <!-- Google Map Embed -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.579567088548!2d80.2212416!3d13.062412300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267f49e8e1173%3A0x40379c791918f720!2sHal%20Power%20Conversion!5e0!3m2!1sen!2sin!4v1734974537035!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="form-response" class="form-response"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>About Us</h4>
+                <p>Leading providers of power solutions since 2020.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Email: halpowerconversion@gmail.com</p>
+                <p>Phone: +91 93420 50447</p>
+            </div>
+        </div>
+        <p>&copy; 2024 Hal Power Conversion. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
